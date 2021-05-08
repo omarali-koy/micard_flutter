@@ -7,6 +7,7 @@ void main() {
         backgroundColor: Colors.teal,
         body: SafeArea(
             child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             CircleAvatar(
               radius: 50,
@@ -28,6 +29,13 @@ void main() {
                 fontSize: 15,
                 color: Colors.white30,
                 letterSpacing: 2,
+              ),
+            ),
+            SizedBox(
+              height: 20,
+              width: 100,
+              child: Divider(
+                color: Colors.teal[100],
               ),
             ),
             Card(
