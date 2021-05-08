@@ -20,6 +20,14 @@ void main() {
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
               ),
+            ),
+            Text(
+              'Blocks for your every need',
+              style: TextStyle(
+                fontFamily: 'Oswald-Regular.ttf',
+                fontSize: 15,
+                color: Colors.white30,
+              ),
             )
           ],
         )),
